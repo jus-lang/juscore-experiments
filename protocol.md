@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | Rascunho para discussão (`1.0-draft1`) |
+| **Status** | Rascunho para discussão (`1.0-draft2`) |
 | **Data** | 2026-11-22 |
 | **Responsáveis** | Jefferson O. Andrade, Gelinton Pablo Mariano |
 | **Repositório** | `jus-lang/juscore-experiments` |
@@ -362,8 +362,8 @@ Depois dele, ajusta-se o protocolo e congela-se a versão `protocol-v1.0`.
 - **Ambiente:** o `juscore-experiments` tem um `flake.nix` próprio, que inclui o `juscore` como entrada fixada.
 - **Ética:** não há participantes humanos. Os humanos envolvidos são os pesquisadores, que operam o experimento e codificam as transcrições. Por isso não se aplica comitê de ética.
 - **Revisão cega da WorldCIST:**
-  - a versão submetida não pode ter links para `jus-lang` nem citações não anonimizadas aos artigos anteriores sobre Jus (WorldCIST 2025 e CHILECON 2025);
-  - os artefatos, se forem citados, precisam estar num repositório anonimizado.
+  - a versão submetida não pode ter links para `jus-lang` nem citações não anonimizadas aos artigos de 2025 (WorldCIST 2025 e CHILECON 2025);
+  - os artefatos, se forem citados, precisam estar num repositório anonimizado. Como os repositórios estão no GitHub, dá para gerar uma cópia anônima de `juscore-experiments` com o Anonymous GitHub (`anonymous.4open.science`).
 
 ---
 
@@ -400,3 +400,4 @@ juscore-experiments/
 ## Histórico
 
 - `1.0-draft1` (2026-11-22): primeira versão para discussão.
+- `1.0-draft2` (2026-11-22): anonimização estendida ao artigo da CHILECON 2025; cópia anônima dos artefatos pelo Anonymous GitHub (§11).
